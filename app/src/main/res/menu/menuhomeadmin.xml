@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemhomeadmin"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio"></item>
+
+        <item
+            android:id="@+id/itemcategory"
+            android:icon="@drawable/ic_category"
+            android:title="Categorías"></item>
+
+        <item
+            android:id="@+id/itemproduct"
+            android:icon="@drawable/ic_product"
+            android:title="Productos"></item>
+
+
+        <item
+            android:id="@+id/itemclient"
+            android:icon="@drawable/ic_group_person"
+            android:title="Usuarios"></item>
+    </group>
+    <item android:title="Pedidos">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/itemorder"
+                    android:icon="@drawable/ic_order"
+                    android:title="Pedidos del día"></item>
+
+                <item
+                    android:id="@+id/itemlistorders"
+                    android:icon="@drawable/ic_listorders"
+                    android:title="Lista de pedidos"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Configuración">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/itemaccount"
+                    android:icon="@drawable/ic_account"
+                    android:title="Cuenta"></item>
+
+                <item
+                    android:id="@+id/itemexit"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Salir"></item>
+            </group>
+        </menu>
+    </item>
+</menu>

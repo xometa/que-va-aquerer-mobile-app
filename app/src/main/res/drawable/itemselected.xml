@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+            Este me permitira controlar el item seleccionado para asignarle
+            otro color y volver el a su color normal los no seleccionados del
+            bottonnavigation
+        -->
+    <item android:color="@color/colorAccent" android:state_checked="true" />
+    <item android:color="#8D8D8D" />
+</selector>

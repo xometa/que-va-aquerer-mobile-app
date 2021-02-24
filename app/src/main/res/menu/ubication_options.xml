@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/select_ubication"
+        android:icon="@drawable/ic_ubication"
+        android:orderInCategory="100"
+        android:title="Seleccionar ubicación"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/house_ubication"
+                android:icon="@drawable/ic_home"
+                android:title="Ubicación de casa"
+                app:showAsAction="never"></item>
+            <item
+                android:id="@+id/ubication_person"
+                android:icon="@drawable/ic_ubication_person"
+                android:title="Ubicación actual"
+                app:showAsAction="never"></item>
+        </menu>
+    </item>
+</menu>

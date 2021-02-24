@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/account_user"
+        android:icon="@drawable/ic_account"
+        android:title="Ver perfil"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/exit_app"
+        android:icon="@drawable/ic_exit"
+        android:title="Salir"
+        app:showAsAction="never"></item>
+</menu>
